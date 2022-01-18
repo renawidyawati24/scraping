@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Book Scraping{% endblock %}
+
+{% block content %}
+  <section class="py-5 text-center container">
+    <div>
+      <p class="lead text-muted">
+        <p>
+          <a href="admin" class="btn btn-primary my-2">Import</a>
+          <a href="#" class="btn btn-secondary my-2">Export</a>
+        </p>
+    </div>
+        <h1>Judul Buku</h1>
+        <div class="align-self-center py-3" >
+            <form action="#" method="POST">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" name="pcr"/>
+                <input type="submit" value="submit">
+            </form>
+          </div>
+      
+  </section>
+
+{% endblock %} 
